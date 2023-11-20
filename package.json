@@ -1,0 +1,20 @@
+{
+    "name": "neovimconf-vulnapp",
+    "version": "1.0.0",
+    "description": "NeoVimConf 2023 Sample VulnApp",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "node ./src/index.js"
+    },
+    "author": "GeekMasher",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "4.17.20",
+        "cors": "2.8.5",
+        "dotenv": "16.3.1",
+        "express": "4.18.2",
+        "json-web-token": "3.1.1",
+        "express-rate-limit": "7.1.4",
+        "pg": "8.11.3"
+    }
+}
